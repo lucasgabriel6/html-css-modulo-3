@@ -4,21 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tamanho da imagem</title>
+    <title>Fundo fixo de tela</title>
 
     <style>
         body{
             height: 100vh;
+            /*
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
-            background-size: cover; /*auto, px ou %, contain, cover*/
+            background-size: cover; (auto, px ou %, contain, cover)
+
+            */
+
+            /*vinculo ou attachement*/
+            background-attachment: fixed;
+
+            /*Shorthand - background
+            
+                color > image > position > repeat > [size] > attachement
+
+                atualmente o size, nao esta funcionando, entao precisa declarar fora da shorthand
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 500px;
             padding: 10px;
             margin: auto;
             border: 2px solid black;
@@ -34,7 +50,20 @@
         <h1>Teste de Imagem de Fundo</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem accusamus libero sunt quia distinctio corrupti quibusdam dolorem illum molestiae blanditiis! Ipsum voluptas assumenda debitis hic repellat perspiciatis eaque minus aperiam!
         Doloribus voluptatibus labore, inventore eaque vel nam fugiat consequatur iusto ipsa commodi animi nulla minus, assumenda sit quisquam sint nisi, ex accusamus ducimus quasi ea nihil repellendus corporis expedita. Provident?
-        Repellendus, a blanditiis omnis velit, modi dolor suscipit, sapiente numquam quos asperiores tenetur similique? Reprehenderit atque id officiis placeat, eos ipsa quas rerum, quam asperiores harum obcaecati deleniti, perspiciatis delectus?</p>
+        Repellendus, a blanditiis omnis velit, modi dolor suscipit, sapiente numquam quos asperiores tenetur similique? Reprehenderit atque id officiis placeat, eos ipsa quas rerum, quam asperiores harum obcaecati deleniti, perspiciatis delectus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut laudantium amet facilis fuga, consequatur optio nemo quidem repellendus ducimus eius repudiandae id, iste maiores praesentium laborum quibusdam aperiam! Minus, mollitia?
+        Veniam magni in nobis culpa et deserunt blanditiis architecto! Nemo sequi autem amet optio eos hic, sit repellat quasi ducimus ut placeat exercitationem laudantium, perspiciatis nesciunt natus iste porro quibusdam!
+        Dolorum a voluptatibus aliquam est iure, temporibus reprehenderit. Nesciunt, magni molestiae. Laborum neque quod nostrum maiores. In sapiente autem dicta blanditiis minima corporis tempora voluptate eligendi, iusto unde eaque id?
+        Molestias id voluptatem nemo voluptatibus iusto deleniti ducimus officia, facere quaerat ex quo ipsa eveniet cupiditate explicabo veniam modi perferendis delectus illum nisi eum eos vitae? Est non error sit.
+        Enim doloribus veritatis sequi praesentium quod dicta neque delectus culpa autem dolores ducimus exercitationem minima excepturi, quas reprehenderit ipsum quisquam repellat facilis repellendus! Ipsa exercitationem possimus, ducimus blanditiis sapiente nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quas, dolor vel culpa provident saepe beatae asperiores deserunt assumenda. Quis voluptates accusamus quae necessitatibus consequatur cupiditate obcaecati placeat ut officia?
+        Excepturi quibusdam, recusandae, esse illum inventore maxime repellendus earum consectetur corporis deserunt natus. Aspernatur quod ad aut soluta, excepturi explicabo velit exercitationem modi possimus molestiae expedita magni doloribus labore! Itaque.
+        Accusamus numquam velit deserunt! Quos optio velit aperiam! Vel labore fugiat asperiores sint provident reprehenderit ea alias, facilis vitae voluptatibus sapiente quod illo beatae quidem ab placeat ullam nobis recusandae.
+        Libero expedita aut blanditiis nihil quibusdam distinctio nisi minus, ex assumenda aperiam. Eum aliquid fugiat sequi aspernatur? Quidem obcaecati sed repudiandae libero molestiae, laudantium rerum? Ipsam iure animi molestiae quasi.
+        Earum architecto est voluptates consectetur blanditiis ut nostrum doloribus. Repellendus consequuntur rem amet eum placeat sunt, delectus libero atque consectetur dicta. Obcaecati nihil dolor natus itaque aut quis placeat facilis.
+        Sapiente qui unde quibusdam dolorum autem ipsam fugit tenetur harum, odit officia, tempore libero itaque enim ipsa modi dolore architecto mollitia accusantium accusamus est quod explicabo. Explicabo similique reiciendis unde.
+        Cupiditate nemo facilis odit iste ullam harum totam omnis veritatis repellendus aut molestiae sapiente quia fugit facere, asperiores inventore quos mollitia labore laboriosam sunt officia, at enim! Voluptate, quaerat ducimus?
+        Iusto dolor fugiat rerum deserunt beatae, qui pariatur earum incidunt nobis animi sit quia maxime dolore necessitatibus fuga facere, impedit, sequi soluta nesciunt quod velit. Qui id odit accusantium odio?
+        Deleniti doloremque minus quo impedit architecto id sed neque, pariatur eaque obcaecati quod, perspiciatis iusto quos nihil beatae harum. Optio obcaecati quaerat aspernatur aut sapiente voluptatum unde aperiam voluptates exercitationem?
+        Odio labore aliquid officia pariatur sunt vel amet molestias. Earum nemo magnam recusandae placeat aliquid nulla necessitatibus saepe natus illum, error non voluptatem hic eos culpa, delectus inventore tenetur voluptatibus?</p>
     </main>
     
 </body>
